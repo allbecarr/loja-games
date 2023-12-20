@@ -1,9 +1,18 @@
 import { Component } from '@angular/core';
+//Imports Angular Materials
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+//-----------------------------
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
-  imports: [],
+  imports: [
+    MatButtonModule,
+    MatCardModule,
+    MatGridListModule
+  ],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
 })
