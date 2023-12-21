@@ -28,12 +28,12 @@ mat-grid-tile{
     padding: 2px;
     border-radius: 30px;
 }
-t-card-header{
+mat-card-header{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-t-card-actions{
+mat-card-actions{
     display: flex;
     justify-content: space-around;
 }
